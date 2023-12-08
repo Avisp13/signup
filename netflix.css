@@ -1,0 +1,461 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+}
+#head{
+    background-color: rgba(0, 0, 0, 0.678);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 130px;
+    padding: 0px 30px;
+    margin-top: -13px;
+    
+}
+#right{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-between;
+    margin: 32px;
+}
+#right button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: 20;
+    background-color: red;
+    border: none;
+    margin-left: 20px;
+    
+}
+#right #lang{
+    height: 28px;
+    width: 119px;
+    font-size: 17px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-color:white ;
+}
+#lang{
+     height: 25px;
+     border-radius: 5px;
+}
+#biggest{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+#biggest h1{
+    font-size: 3.9rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+#biggest p{
+    font-size: 1.49rem;
+    font-weight: 400;
+    margin: 0px;
+}
+#biggest h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#biggest #email{
+    color: white;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+#biggest input{
+    height: 3.1rem;
+    width: 25rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+}
+#biggest input::placeholder{
+    padding: 5px;
+    color: white;
+}
+#biggest button{
+    height: 3.4rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 7px;
+    padding-top: 4px;
+}
+#enjoy{
+    background-color: black;
+}
+#backtv{
+    background-color: black;
+    margin-top: 8rem;
+}
+#backtv hr{
+    height: 8px;
+    background-color: rgb(35,35,35);
+    border: 0px;
+}
+#tv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 3rem 0;
+}
+#tvleft{
+    width: 50%;
+}
+#tvleft h1{
+    font-size: 2.5rem;
+}
+#tvleft p{
+    font-size: 1.5rem;
+}
+#tvright{
+    width: 50%;
+    position:relative;
+}
+#tvright img{
+    width: 100%;
+    z-index: 3;
+    position: relative;
+}
+#tvright video{
+    position: absolute;
+    left: 12%;
+    top: 19%;
+    width: 76%;
+    z-index: 2;
+}
+#backwatch hr{
+    height: 8px;
+    background-color: rgb(35,35,35);
+    border: 0px;
+}
+
+#watch{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 3rem 0;
+}
+#watchleft{
+    width: 50%;
+}
+#watchleft h1{
+    font-size: 2.5rem;
+    margin: 0;
+} 
+#watchleft p{
+    font-size: 1.5rem;
+}
+#watchright{
+    width: 50%;
+    position:relative;
+}
+#watchright img{
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}
+#watchright video{
+    position: absolute;
+    top: 48px;
+    left: 113px;
+    width: 62%;
+    z-index: 1;
+}
+#backkids hr{
+    height: 8px;
+    background-color: rgb(35,35,35);
+    border: 0px;
+}
+#kids{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 3rem 0;
+    color: white;
+}
+#kidsleft{
+    width: 50%;
+}
+#kidsleft img{
+    width: 100%;
+}
+#kidsright{
+    width: 50%;
+}
+#kidsright h1{
+    font-size: 2.5rem;
+    margin: 0;
+}
+#kidsright p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+#backdownload hr{
+    height: 8px;
+    background-color: rgb(35,35,35);
+    border: 0px;
+}
+#download{
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 3rem 0;
+}
+#downloadright h1{
+    font-size: 2.5rem;
+}
+#downloadright p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+#downloadleft{
+    position: relative;
+}
+#downloadbox{
+    display: flex;
+    width: 50%; 
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    left: 24%;
+    top: 70%;
+    z-index: 2;
+}
+#downloadbox img{
+   width: 20%;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+#downloadbox .fa-arrow-down{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#downloadthings{
+    width: 60%;
+}
+#downloadthings h1{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: -10px;
+    color: white;
+}
+#downloadthings p{
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+#Faq{
+    width: 77%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+#Faq h1{
+    font-size: 3.5rem;
+}
+#Faq h3{
+    font-size: 1.5rem;
+}
+#Faq #Faqmenu{
+    list-style-type: none;
+    background-color: black;
+    padding-left: 0;
+}
+#Faq button{
+    background-color: #2d2d2d;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    border: none;
+}
+#Faq .fa-thin{
+    font-size: 3.4rem;
+    font-weight: 100;
+    margin-top: 5px;
+}
+#Faq #whatpar{
+    display: none;
+}
+#what:hover #whatpar{
+    display: block;
+}
+
+#Faq p{
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: start;
+    padding: 1rem;
+    margin-top: -6px;
+    background-color: #2d2d2d;
+}
+
+#Faqemail{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+#fbutton{
+    display: flex;
+    justify-content: center;
+}
+#Faqemail h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#Faqemail #femail{
+    color: white;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+#Faqemail input{
+    height: 3.1rem;
+    width: 25rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+}
+#Faqemail input::placeholder{
+    padding: 5px;
+    color: white;
+}
+#Faqemail button{
+    height: 3.4rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 7px;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+
+footer{
+    width: 77%;
+    margin: auto;
+    color: white;
+}
+
+footer #ques{
+    display: flex;
+    color: white
+}
+footer #ques a{
+    color: white;
+}
+footer #center{
+    display: flex;
+     list-style-type: none;
+     justify-content: space-between;
+     padding-left: 0;
+}
+footer #center a{
+    color: white;
+    padding-right: 5rem;
+    font-size: 14px;
+    
+}
+
+#fleft #flang{
+    height: 28px;
+    width: 119px;
+    font-size: 17px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-color:white ;
+    border-radius: 5px;
+}
+#hr hr{
+    color: rgb(35,35,35);
+    height: 8px;
+    background-color: rgb(35,35,35);
+    border: 0px;
+    margin: 3rem 0; 
+    border: none;
+}
+
+@media(max-width:600px){
+    #tv{
+        width: 90%;
+        display: flex;
+        /* flex-direction: column-reverse; */
+        flex-direction: column;
+    }
+    #tvleft{
+        width: 100%;
+        text-align: center;
+    }
+    #tvleft h1{
+        font-size: 2.5rem;
+    }
+    #tvleft p{
+        font-size: 1.5rem;
+    }
+    #tvright{
+        width: 100%;
+        position:relative;
+    }
+    #tvright img{
+        width: 100%;
+        z-index: 3;
+        position: relative;
+    }
+    #tvright video{
+        position: absolute;
+        left: 12%;
+        top: 19%;
+        width: 76%;
+        z-index: 2;
+    }
+}
